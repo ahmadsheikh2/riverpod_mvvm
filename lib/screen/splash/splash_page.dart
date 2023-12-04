@@ -12,7 +12,11 @@ class SplashPage extends ConsumerStatefulWidget {
 class _SplashPageState extends BaseConsumerState<SplashPage, SplashViewModel> {
   @override
   Widget customBuild(BuildContext context) {
-    return const Scaffold();
+    return Background(
+      showAppBar: true,
+      appBarTitle: 'Test AppBar',
+      body: Container(),
+    );
   }
 
   @override
