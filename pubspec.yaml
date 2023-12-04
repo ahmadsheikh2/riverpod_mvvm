@@ -1,0 +1,192 @@
+name: riverpod_mvvm
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #UI
+  cached_network_image:
+  pin_input_text_field:
+  image_picker:
+  flutter_svg:
+  fluttertoast:
+  shimmer:
+
+  #Storage
+  firebase_storage:
+  shared_preferences:
+
+  #State Management
+  flutter_riverpod:
+
+  #Firebase
+  firebase_messaging:
+  firebase_core:
+  firebase_auth:
+
+  #Network
+  google_sign_in:
+  sign_in_with_apple:
+  html:
+  url_launcher:
+  flutter_local_notifications:
+  get_it:
+  http:
+  dartz:
+
+  #Navigation
+  go_router: ^10.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_gen_runner:
+  build_runner: ^2.4.7
+  auto_route_generator:
+
+flutter_gen:
+  integration:
+    flutter_svg:
+
+  colors:
+    inputs:
+      - assets/colors/colors.xml
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/clash_display/
+    - assets/fonts/product_sans/
+    - assets/fonts/Gotham-Font/
+    - assets/fonts/montserrat/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/fonts/montserrat/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/montserrat/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/montserrat/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/montserrat/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/montserrat/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-Regular.ttf
+        - asset: assets/fonts/montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/montserrat/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/montserrat/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+
+    - family: Product Sans Bold
+      fonts:
+        - asset: assets/fonts/product_sans/Product Sans Bold.ttf
+
+    - family: Gotham-Black
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-Black.otf
+
+    - family: Gotham-Bold
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-Bold.otf
+
+    - family: Gotham-BookItalic
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-BookItalic.otf
+
+    - family: Gotham-Light
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-Light.otf
+
+    - family: Gotham-Thin
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-Thin.otf
+
+    - family: Gotham-ThinItalic
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-ThinItalic.otf
+
+    - family: Gotham-UltraItalic
+      fonts:
+        - asset: assets/fonts/Gotham-Font/Gotham-UltraItalic.otf
+
+    - family: GothamMedium
+      fonts:
+        - asset: assets/fonts/Gotham-Font/GothamMedium.ttf
+
+    - family: Product Sans Bold Italic
+      fonts:
+        - asset: assets/fonts/product_sans/Product Sans Bold Italic.ttf
+
+    - family: Product Sans Italic
+      fonts:
+        - asset: assets/fonts/product_sans/Product Sans Italic.ttf
+
+    - family: Product Sans Regular
+      fonts:
+        - asset: assets/fonts/product_sans/Product Sans Regular.ttf
+
+    - family: ClashDisplay-Bold
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Bold.otf
+
+    - family: ClashDisplay-Extralight
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Extralight.otf
+
+    - family: ClashDisplay-Light
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Light.otf
+
+    - family: ClashDisplay-Medium
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Medium.otf
+
+    - family: ClashDisplay-Regular
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Regular.otf
+
+    - family: ClashDisplay-Semibold
+      fonts:
+        - asset: assets/fonts/clash_display/ClashDisplay-Semibold.otf
